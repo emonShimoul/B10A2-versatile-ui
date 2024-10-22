@@ -167,12 +167,14 @@ body {
   padding: 100px 0;
   text-align: center;
 }
-.change-habit-header h2 {
+.change-habit-header h2,
+.run-extra-left h2 {
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 900;
 }
-.change-habit-header p {
+.change-habit-header p,
+.run-extra-left p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
@@ -183,7 +185,7 @@ body {
 }
 .change-habit-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   gap: 40px;
 }
@@ -204,4 +206,40 @@ body {
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0.3px;
+}
+.run-extra-mile-section {
+  display: flex;
+  gap: 10%;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+.run-extra-left {
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.run-extra-left p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.run-extra-right {
+  width: 40%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 30px;
+}
+.run-extra-right img {
+  width: 100%;
+  border-radius: 18px;
+}
+.join-now-btn {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  padding: 12px 40px;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
 }
