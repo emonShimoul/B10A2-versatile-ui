@@ -20,7 +20,8 @@ body {
 }
 .header,
 .banner,
-.all-content {
+.all-content,
+.footer {
   width: 1060px;
   margin: 0 auto;
 }
@@ -423,4 +424,69 @@ body {
   font-size: 14px;
   font-weight: 400;
   padding: 0;
+}
+
+/* footer section style */
+.footer-container {
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer {
+  display: flex;
+  gap: 150px;
+  justify-content: space-between;
+  margin-top: 88px;
+  padding-top: 66px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer ul li {
+  list-style: none;
+  margin-bottom: 22px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.4;
+  font-weight: 400;
+}
+.footer-left {
+  width: 50%;
+  /* padding-right: 90px; */
+}
+.footer-left h2 {
+  color: rgb(230, 83, 60);
+  font-size: 4.4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.footer-left p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.footer-centre {
+  width: 25%;
+}
+.footer-right {
+  width: 25%;
+}
+.footer-centre h4,
+.footer-right h4 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 39px;
+}
+.footer-bottom {
+  padding-top: 36px;
+}
+.footer-bottom p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25;
+  font-weight: 400;
+  padding-bottom: 36px;
+  text-align: center;
 }
