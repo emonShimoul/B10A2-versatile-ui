@@ -39,6 +39,12 @@ body {
   font-weight: 800;
   font-style: italic;
 }
+.nav-hamburger-menu {
+  display: none;
+}
+.nav-hamburger-menu i {
+  color: #fff;
+}
 .navbar ul {
   display: flex;
   gap: 47px;
@@ -489,4 +495,7 @@ body {
   font-weight: 400;
   padding-bottom: 36px;
   text-align: center;
+}
+.hide {
+  display: none;
 }

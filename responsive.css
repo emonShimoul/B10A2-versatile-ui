@@ -1,0 +1,129 @@
+/* responsive started */
+@media screen and (max-width: 576px) {
+  .header,
+  .banner,
+  .all-content,
+  .footer {
+    width: 100%;
+  }
+  .header-banner-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navbar {
+    display: none;
+  }
+  .nav-hamburger-menu {
+    display: block;
+  }
+  .nav-hamburger-menu i {
+    color: white;
+  }
+
+  /* banner styles */
+  .banner {
+    flex-direction: column;
+  }
+  .banner-left {
+    width: 100%;
+  }
+  .banner-left h2 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .banner-left-buttons {
+    flex-direction: column;
+  }
+  .banner-right {
+    width: 100%;
+  }
+  .workout-videos {
+    top: -62px;
+    width: 190px;
+  }
+  .workout-videos-numbers {
+    font-size: 30px;
+  }
+  .video-tutorial {
+    width: 58%;
+    bottom: 24px;
+    right: 10px;
+    left: 0;
+  }
+
+  /* change-habit-section styles */
+  .change-habit-cards {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .change-habit-header h2,
+  .run-extra-left h2,
+  .our-team-section h2,
+  .bmi-calculator-header h2 {
+    font-size: 30px;
+  }
+
+  /* run-extra-mile-section styles */
+  .run-extra-mile-section {
+    flex-direction: column;
+  }
+  .run-extra-left {
+    width: 100%;
+  }
+  .run-extra-right {
+    width: 100%;
+  }
+
+  /* bmi-calculator-section styles */
+  .bmi-calculator-section {
+    margin-top: 50px;
+  }
+  .bmi-calculator-header {
+    width: 100%;
+    text-align: center;
+  }
+  .bmi-calculator-inner {
+    flex-direction: column;
+    gap: 50px;
+    margin: 28px 0;
+    padding: 20px;
+  }
+  .bmi-calculator-left {
+    width: 100%;
+  }
+  .bmi-calculator-left table {
+    width: 100%;
+  }
+  .bmi-calculator-right {
+    width: 100%;
+  }
+
+  /* our-team-section styles */
+  .our-team-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  /* footer styles */
+  .footer {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .footer-left,
+  .footer-right,
+  .footer-centre {
+    width: 100%;
+  }
+  .footer-left h2 {
+    font-size: 3.4rem;
+  }
+}
