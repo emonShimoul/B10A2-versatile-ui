@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 
 * {
   margin: 0;
@@ -10,10 +11,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 .header-banner-container {
-  background: linear-gradient(
-    180deg,
+  background-color: #000000;
+  background-image: linear-gradient(
+    0deg,
     rgb(17, 17, 17),
-    rgba(119, 119, 119, 1) 100%
+    rgba(119, 119, 119, 0.3) 100%
   );
 }
 .header,
@@ -88,7 +90,10 @@ body {
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 600;
-  /* background: transparent; */
+}
+.shape-font {
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
 }
 .join-club-btn {
   background: rgb(230, 83, 60);
@@ -318,12 +323,15 @@ body {
 }
 .bmi-calculator-form input,
 .bmi-calculator-form select {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(58, 57, 57);
   border-radius: 8px;
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   font-weight: 400;
   border: none;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 .input-container {
   display: flex;
@@ -335,12 +343,12 @@ body {
   padding: 12px 20px;
 }
 .bmi-calculator-form select {
-  width: 100%; /* Full width for dropdowns */
+  width: 100%;
   padding: 12px 20px;
-  box-sizing: border-box; /* Include padding in width */
+  box-sizing: border-box;
 }
 .activity-factor {
-  flex: 1 1 100%; /* Full width */
+  flex: 1 1 100%;
 }
 .calculate-btn input {
   border-radius: 42px;
@@ -391,9 +399,9 @@ body {
   right: 0;
   bottom: 0;
   border-radius: 18px;
-  background: rgba(63, 63, 63, 0.5); /* Semi-transparent black */
-  z-index: 1; /* Position it above the image */
-  pointer-events: none; /* Allows clicks to pass through */
+  background: rgba(63, 63, 63, 0.5);
+  z-index: 1;
+  pointer-events: none;
 }
 .our-team-card {
   position: relative;
