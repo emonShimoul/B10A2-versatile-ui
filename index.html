@@ -157,6 +157,48 @@
                 We believe fitness should be accessible to everyone, everywhere,
                 regardless of income or access to a gym.
               </p>
+
+              <form class="bmi-calculator-form">
+                <div class="input-container">
+                  <input
+                    type="number"
+                    class="field"
+                    placeholder="Height/cm"
+                    required
+                  />
+                  <input
+                    type="number"
+                    class="field"
+                    placeholder="Weight/kg"
+                    required
+                  />
+                </div>
+                <div class="input-container">
+                  <input
+                    type="number"
+                    class="field"
+                    placeholder="Age"
+                    required
+                  />
+                  <select class="field" required>
+                    <option value="sex">Sex</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="activity-factor">
+                  <select required>
+                    <option value="">Select an activity factor</option>
+                    <option value="light_activity">Light Activity</option>
+                    <option value="moderate_activity">Moderate Activity</option>
+                    <option value="high_activity">High Activity</option>
+                  </select>
+                </div>
+                <div class="calculate-btn">
+                  <input type="submit" value="Calculate" />
+                </div>
+              </form>
             </div>
           </div>
         </div>

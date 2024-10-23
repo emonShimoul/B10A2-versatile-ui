@@ -310,14 +310,50 @@ body {
 .bmi-calculator-right {
   width: 50%;
 }
-/* .bmi-calculator-right p {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+.bmi-calculator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 34px;
+}
+.bmi-calculator-form input,
+.bmi-calculator-form select {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.3px;
+  border: none;
+}
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.field {
+  flex: 1 1 calc(50% - 10px);
+  padding: 12px 20px;
+}
+.bmi-calculator-form select {
+  width: 100%; /* Full width for dropdowns */
+  padding: 12px 20px;
+  box-sizing: border-box; /* Include padding in width */
+}
+.activity-factor {
+  flex: 1 1 100%; /* Full width */
+}
+.calculate-btn input {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  padding: 12px 0;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  width: 40%;
   margin-top: 15px;
-} */
+  cursor: pointer;
+}
+
 /* our-team-section style */
 .our-team-section {
   text-align: center;
